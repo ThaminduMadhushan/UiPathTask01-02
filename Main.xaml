@@ -78,7 +78,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="742,677" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="684,677" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -99,7 +99,7 @@
           <OutArgument x:TypeArguments="x:String">[originalString]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">AutomationDeveloper</InArgument>
+          <InArgument x:TypeArguments="x:String">ThaminduMadhushan</InArgument>
         </Assign.Value>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -107,7 +107,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </Assign>
-      <Assign sap2010:Annotation.AnnotationText="This extracts the first 5 characters from the original string using the Substring method.&#xD;&#xA;&#xD;&#xA;The Substring method takes two arguments:&#xA;&#xA;Start index (0): Start from the first character.&#xA;Length (5): Extract the next 5 characters." DisplayName="Extract First 5 Characters" sap:VirtualizedContainerService.HintSize="434,231" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign sap2010:Annotation.AnnotationText="This extracts the first 5 characters from the original string using the Substring method.&#xA;&#xA;The Substring method takes two arguments:&#xA;&#xA;Start index (0): Start from the first character.&#xA;Length (5): Extract the next 5 characters." DisplayName="Extract First 5 Characters" sap:VirtualizedContainerService.HintSize="434,231" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[substringResult]</OutArgument>
         </Assign.To>
